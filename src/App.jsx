@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import ResultCard from "./components/ResultCard";
 import CompareAccuracy from "./components/CompareAccuracy";
+import SubjectImprovements from "./components/Improvements";
 
 function App() {
   return (
@@ -13,6 +14,18 @@ function App() {
           <CompareAccuracy />
           <CompareAccuracy />
           <CompareAccuracy />
+        </div>
+        <div className="flex flex-row gap-4">
+          <SubjectImprovements />
+          <SubjectImprovements />
+          <SubjectImprovements/>
+          <SubjectImprovements/>
+        </div>
+        <div className="flex flex-row gap-4">
+          <SubjectImprovements />
+          <SubjectImprovements />
+          <SubjectImprovements/>
+          <SubjectImprovements/>
         </div>
       </div>
     </div>
