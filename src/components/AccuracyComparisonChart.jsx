@@ -20,7 +20,7 @@ const AccuracyComparisonChart = ({
   ]
 }) => {
   return (
-    <div className="p-6 bg-white rounded-lg shadow-sm">
+    <div className="p-6 rounded-lg bg-white shadow-sm border border-gray-200">
       <div className="flex items-center gap-2 mb-6">
         <BarChart2 className="w-5 h-5 text-gray-500" />
         <h2 className="text-lg text-gray-500">Compare Accuracy</h2>
