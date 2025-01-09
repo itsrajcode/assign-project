@@ -6,6 +6,7 @@ import SubjectImprovements from "./components/Improvements";
 import AccuracyComparisonChart from "./components/AccuracyComparisonChart";
 import ResponseTime from "./components/ResponseTime";
 import ApproachData from "./components/ApproachData";
+import Suggestions from "./components/Suggestions";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
               <SubjectImprovements />
               <ResponseTime />
               <ApproachData />
-              <SubjectImprovements />
+              <Suggestions />
             </div>
 
             {/* Accuracy Comparison Charts Section */}
