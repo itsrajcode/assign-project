@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap } from 'lucide-react';
+import { ChartNoAxesCombinedIcon } from 'lucide-react';
 
 const SubjectImprovements = () => {
   const subjects = [
@@ -15,19 +15,19 @@ const SubjectImprovements = () => {
   ];
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-sm">
+    <div className="p-4 rounded-lg bg-white shadow-sm border border-gray-200">
       <div className="flex items-center gap-2 mb-4">
-        <Zap className="w-5 h-5 text-gray-600" />
-        <h2 className="text-lg font-medium text-gray-700">Improvements</h2>
+        <ChartNoAxesCombinedIcon className="w-5 h-5 text-gray-400" />
+        <h2 className="text-lg font-medium text-gray-400">Improvements</h2>
       </div>
       
       <div className="mt-3">
-        <h3 className="text-base font-medium text-gray-600 mb-3">Subject Understanding</h3>
-        <div className="flex flex-wrap gap-2">
+        <h3 className="text-base text-gray-600 font-semibold mb-3">Subject Understanding</h3>
+        <div className="flex flex-wrap gap-1">
           {subjects.map((subject, index) => (
             <span
               key={index}
-              className={`${subject.color} text-white px-3 py-1 rounded-full text-sm`}
+              className={`${subject.color} text-white px-2 py-1 rounded-full text-xs`}
             >
               {subject.name}
             </span>
