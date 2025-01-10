@@ -1,4 +1,5 @@
 ## Steps to Run the Project
+![Project image](./public/image.png)
 
 1. **Clone the Repository**  
    Clone the project repository to your local machine:
