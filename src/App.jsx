@@ -7,6 +7,7 @@ import AccuracyComparisonChart from "./components/AccuracyComparisonChart";
 import ResponseTime from "./components/ResponseTime";
 import ApproachData from "./components/ApproachData";
 import Suggestions from "./components/Suggestions";
+import TimeTaken from "./components/TimeTaken";
 
 function App() {
   return (
@@ -39,7 +40,7 @@ function App() {
             {/* Accuracy Comparison Charts Section */}
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
               <AccuracyComparisonChart />
-              <AccuracyComparisonChart />
+              <TimeTaken />
             </div>
           </div>
         </div>

@@ -26,7 +26,6 @@ const AccuracyComparisonChart = ({
         <h2 className="text-lg text-gray-500">Compare Accuracy</h2>
       </div>
 
-      {/* Time Markers */}
       <div className="relative mb-8 px-4">
         <div className="h-1 bg-teal-100 rounded">
           <div className="absolute top-1/2 w-full -translate-y-1/2 flex justify-between">
@@ -50,7 +49,6 @@ const AccuracyComparisonChart = ({
         </div>
       </div>
 
-      {/* Chart */}
       <BarChart
         width={500}
         height={300}

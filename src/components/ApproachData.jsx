@@ -11,13 +11,11 @@ const ApproachData = ({
 }) => {
   return (
     <div className="p-4 rounded-lg bg-white shadow-sm border border-gray-200">
-      {/* Header */}
       <div className="flex items-center mb-1 gap-2">
         <TrendingUp className="w-5 h-5 text-gray-400" />
         <h2 className="text-lg text-gray-400 font-medium">Approach Data</h2>
       </div>
 
-      {/* Approach List */}
       <div className="flex flex-col gap-3">
         {approaches.map((approach, index) => (
           <div 
